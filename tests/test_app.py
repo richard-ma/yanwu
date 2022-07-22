@@ -1,11 +1,6 @@
-import unittest
-import src.yanwu
+import pytest
+import yanwu
 
 
-class TestApp(unittest.TestSuite):
-    def test_app(self):
-        pass
-
-
-if __name__ == "__main__":
-    unittest.main()
+def test_app():
+    return True
