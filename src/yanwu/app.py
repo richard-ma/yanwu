@@ -1,12 +1,8 @@
 # !/usr/bin/env python
 # APP Framework 1.0
-import copy
 import csv
 import os
 import sys
-import shutil
-import requests
-from pprint import pprint
 
 
 class App:
